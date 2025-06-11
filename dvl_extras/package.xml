@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>dvl_extras</name>
+  <version>0.0.0</version>
+  <description>The dvl_extras package</description>
+
+  <maintainer email="nikhil.henry@plaksha.edu.in">Nikhil Henry</maintainer>
+
+
+  <license>TODO</license>
+
+  <author email="nikhil.henry@plaksha.edu.in">Nikhil Henry</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mavros_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>mavros_msgs</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>mavros_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <depend>mavros_dvl_extras</depend>
+
+</package>
