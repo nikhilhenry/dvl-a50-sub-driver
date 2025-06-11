@@ -1,0 +1,5 @@
+<library path="lib/libmavros_dvl_extras">
+	<class name="vision_position_delta" type="mavros::extra_plugins::VisionPositionDeltaPlugin" base_class_type="mavros::plugin::PluginBase">
+		<description>Send Vision Position Delta messages to the FCU</description>
+	</class>
+</library>
